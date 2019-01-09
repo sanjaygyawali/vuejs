@@ -1,0 +1,226 @@
+/* here you can put your own css to customize and override the theme */
+
+.portlet.light>.portlet-title>.caption>.caption-subject {
+    font-size: 11px;
+    font-weight: 600!important;
+}
+.page-content-white .page-title {
+    color: #238f46;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0 !important;
+    text-transform: uppercase;
+}
+.tabbable-line>.nav-tabs>li.active {
+    border-bottom: 4px solid #5fb37a !important;
+}
+.tabbable-line>.nav-tabs>li:hover{
+    border-bottom: 4px solid #a1ccaf !important;
+}
+.font-green-sharp {
+    color: #258D3A!important;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #258D3A;
+    border-color: #258D3A;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #258D3A;
+}
+.btn.green:not(.btn-outline) {
+    background-color: #238F46;
+    border-color: #238F46;
+}
+
+.modal .modal-header {
+    border-bottom: 1px solid #046b1f;
+    background: #268F3A;
+    color: #fff;
+}
+.modal .yellow-gold {
+    border-bottom: 1px solid #E87E04;
+    background: #E87E04;
+    color: #fff;
+}
+.modal-sm {
+    width: 350px !important;
+}
+
+.btn.btn-outline.green {
+    border-color: #268f3a;
+    color: #268f3a;
+    background: 0 0;
+}
+.btn.btn-outline.green:hover {
+    border-color: #238F46 !important;
+    color: #FFF !important;
+    background-color: #238F46 !important;
+}
+
+.container {
+    width: 1300px;
+}
+.container a {
+    float: right;
+}
+
+.alert-success{
+    background-color: #046b1f;
+    border: #268f3a;
+    color: #ffffff;
+}
+/*table.dataTable.no-footer {
+    min-height: 200px;
+    }*/
+
+
+
+    /*COLOR CHANGE*/
+    .color-green{
+        background-color: #248F39;
+    }
+    .color-red{
+        background-color: #D12331;
+    }
+    .color-yellow{
+        background-color: #FFE06C;
+    }
+    .color-light-green{
+        background-color: #20FF20;
+    }
+
+    .color-option-green{
+        background-color: #248F39;
+        color: #FFFFFF;
+    }
+    .color-option-red{
+        background-color: #D23A59;
+        color: #FFFFFF;
+    }
+    .color-option-yellow{
+        background-color: #FFE06C;
+        color: #FFFFFF;
+    }
+    .color-option-light-green{
+        background-color: #20FF20;
+        color: #FFFFFF;
+    }
+
+    .portlet.box.red>.portlet-title, .portlet.red, .portlet>.portlet-body.red {
+        background-color: #248F39;
+    }
+    .portlet.box.red {
+        border: 1px solid #248f39;
+        border-top: 0;
+    }
+    .portlet.box.red>.portlet-title>.actions .btn-default {
+        background: 0 0!important;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    }
+    .portlet.box.red>.portlet-title>.actions .btn-default>i {
+        color: #ffffff;
+    }
+
+    .table.dataTable.no-footer {
+        border-bottom: 1px solid #ffffff;
+    }
+    /*.btn:not(.btn-sm):not(.btn-lg) {*/
+        /*line-height: 0.44;*/
+        /*}*/
+
+        .btn {
+            /*padding: 4px 3px;*/
+            font-size: 11px;
+        }
+        .table-scrollable .dataTable td .btn-group, .table-scrollable .dataTable th .btn-group {
+            padding-left: 15px;
+        }
+
+        .portlet.blue, .portlet.box.blue>.portlet-title, .portlet>.portlet-body.blue {
+            background-color: #248f39;
+        }
+
+
+        .portlet.box.blue {
+            border: 1px solid #ffffff;
+            border-top: 0;
+        }
+
+
+        .btn.blue:not(.btn-outline) {
+            color: #FFF;
+            background-color: #248f39;
+            border-color: #248f39;
+        }
+
+
+        .input-large {
+            width: 100% !important;
+        }
+
+        .form-control {
+            border: 1px solid #268f3a;
+        }
+
+        .input-medium {
+            width: 100% !important;
+        }
+
+        .portlet.box.green>.portlet-title, .portlet.green, .portlet>.portlet-body.green {
+            background-color: #248f39;
+        }
+
+        .portlet.box.green {
+            border: 1px solid #248f39;
+        }
+
+        .form-wizard .steps>li.active>a.step .number {
+            background-color: #248f39;
+        }
+        .progress-bar-success {
+            background-color: #248f39;
+        }
+        a {
+            color: #248f39;
+        }
+        .has-success .checkbox, .has-success .checkbox-inline, .has-success .control-label, .has-success .form-control-feedback, .has-success .help-block, .has-success .radio, .has-success .radio-inline, .has-success.checkbox label, .has-success.checkbox-inline label, .has-success.radio label, .has-success.radio-inline label {
+            color: #248f39;
+        }
+        .has-success .select2-dropdown, .has-success .select2-selection {
+            border-color: #248f39 !important;
+        }
+        .has-success .form-control {
+            border-color: #248f39;
+        }
+        .form-wizard .steps>li.done>a.step .number {
+            background-color: #d12331;
+        }
+
+        .has-success .input-group-addon {
+            color: #248f39;
+        }
+
+        .datepicker table td {
+            color: #000;
+            font-weight: 300!important;
+            cursor: pointer !important;
+        }
+
+        .font-blue-madison {
+    color: #248f39 !important;
+}
+.profile-usertitle-job {
+    color: #268f3a !important;
+}
+
+.profile-usertitle-name {
+    color: #335217 !important;
+
+}
+
+table.dataTable thead .sorting:after {
+    opacity: 0.2;
+    /*content: "\e150";*/
+}
